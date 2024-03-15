@@ -1,4 +1,26 @@
-html {
-  height: 100%;
-  width: 100%;
+.records {
+  border-collapse: collapse; /* Collapses border between table cells */
+  width: 80%; /* Adjusted for better responsiveness */
+  max-width: 600px; /* Maximum width to ensure table doesn't get too wide */
+  margin: auto; /* Center table on the page */
+}
+
+.records th, .records td {
+  border: solid 1px #000; /* Adds border to each cell */
+  padding: 8px; /* Adds some padding for text inside cells */
+}
+
+.records > thead {
+  background-color: rgb(145, 145, 145); /* Header background color */
+}
+
+.records > tbody {
+  background-color: rgb(192, 190, 190); /* Body background color */
+  text-align: center; /* Centers text in cells */
+}
+
+@media (max-width: 600px) {
+  .records {
+    width: 100%; /* Full width on smaller screens to utilize available space */
+  }
 }
