@@ -43,5 +43,20 @@
         
       </tbody>
     </table>
+
+    <form id="recordForm">
+      <label for="driver">Driver:</label>
+      <input type="text" id="driver" name="driver" required>
+
+      <label for="time">Time:</label>
+      <input type="text" id="time" name="time" required pattern="\d{1,2}:\d{2}">
+
+      <label for="track">Track:</label>
+      <input type="text" id="track" name="track" required>
+
+      <button type="submit">Add Record</button>
+    </form>
+
+    
   </body>
 </html>
