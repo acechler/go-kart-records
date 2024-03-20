@@ -2,8 +2,8 @@
 :root {
   --font-family: 'Helvetica', sans-serif;
   --font-size: 16px;
-  --primary-color: rgba(34, 34, 53, 0.411);
-  --secondary-color: rgba(173, 170, 163, 0.055);
+  --primary-color:  rgba(201, 200, 200, 0.986);
+  --secondary-color: rgba(255, 255, 255, 0.89);
 }
 
 *, *::before, *::after {
@@ -72,11 +72,18 @@ img {
 }
 
 
+
+.record-container{
+  background: rgba(105, 105, 105, 0.055);
+  padding: 2rem;
+}
+
 .records {
+  background-color: gray;
   border-collapse: collapse; /* Collapses border between table cells */
   width: 80%; /* Adjusted for better responsiveness */
-  max-width: 600px; /* Maximum width to ensure table doesn't get too wide */
   margin: auto; /* Center table on the page */
+  
 }
 
 .records td {
@@ -85,9 +92,11 @@ img {
 .records tr:nth-child(even) td:nth-child(even),
 .records tr:nth-child(even) td:nth-child(odd) {
   background: var(--primary-color)
+  
 }
 .records > thead {
-  background-color: var(--primary-color); /* Header background color */
+  background-color:  rgba(104, 104, 104, 0.986); /* Header background color */
+  text-align: center;
 }
 
 .records > tbody {
@@ -115,7 +124,7 @@ img {
 #recordForm label {
   display: block;
   margin-bottom: 10px;
-  color: #333;
+  color: #2e2727;
 }
 
 #recordForm input[type="text"] {
