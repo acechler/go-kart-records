@@ -11,7 +11,7 @@ here is a plan on what to implement for the project.
 
 there will be the following inputs.
 
-Input Label to add name.
-Input Label to add time.
-Optional label to allow user to add their own date or not.
-Submit button to append object to list.
+- Input Label to add name.
+- Input Label to add time.
+- Optional label or toggle to allow user to add their own date or not.
+- Submit button to append object to list.
