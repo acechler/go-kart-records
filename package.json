@@ -1,0 +1,14 @@
+{
+  "name": "go-kart-records",
+  "version": "1.0.0",
+  "description": "This is a remake of the old C++ go-kart program.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "go-karts"
+  ],
+  "author": "Aaron Echler",
+  "license": "ISC"
+}

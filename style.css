@@ -1,3 +1,12 @@
+
+
+:root {
+  --primary-color: #4CAF50;
+  --secondary-color: #ff6347;
+  --padding: 10px;
+}
+
+
 .records {
   border-collapse: collapse; /* Collapses border between table cells */
   width: 80%; /* Adjusted for better responsiveness */
@@ -11,11 +20,11 @@
 }
 
 .records > thead {
-  background-color: rgb(145, 145, 145); /* Header background color */
+  background-color: var(--primary-color); /* Header background color */
 }
 
 .records > tbody {
-  background-color: rgb(192, 190, 190); /* Body background color */
+  background-color: var(--secondary-color); /* Body background color */
   text-align: center; /* Centers text in cells */
 }
 
